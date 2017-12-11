@@ -21,7 +21,7 @@ An RStudio Addin for tranlating Japanese variable/function names to English by C
 Sys.setenv(CODIC_TOKEN='<your-token>')
 ```
 
-3. In your RStudio, select a text which you want tranlate.
+3. In your RStudio, select a text which you want to tranlate.
 
 4. Choose `Translate by Codic` from Addins menu.
 
