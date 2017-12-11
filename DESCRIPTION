@@ -1,0 +1,12 @@
+Package: codicR
+Type: RStudio Addin for codic
+Title: Naming variables using Codic API.
+Version: 0.1.0
+Authors@R: c(person(given = "Naoto", family = "Koshimizu", email = "orehacks@gmail.com", role  = c("aut", "cre")))
+Maintainer: Naoto Koshimizu <orehacks@gmail.com>
+Description: This is an R package for naming variables.
+    It translate Japanese to English using Codic API.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1

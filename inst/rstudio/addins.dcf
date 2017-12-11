@@ -1,0 +1,4 @@
+Name: Translate by Codic
+Description: Translate Japanese text to English by Codic API.
+Binding: codicR
+Interactive: false
