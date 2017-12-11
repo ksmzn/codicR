@@ -1,9 +1,9 @@
 # codicR
-====
+============================
 
 An RStudio Addin for tranlating Japanese variable/function names to English by Codic API
 
-
+![codicR]("https://github.com/ksmzn/codicR/blob/master/man/figures/codicR.gif")
 
 ## Installation
 
