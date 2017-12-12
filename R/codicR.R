@@ -12,7 +12,7 @@ codicR <- function() {
 
 #' Get Translate text from codic
 #'
-#' @importFrom httr GET content
+#' @importFrom httr GET content add_headers
 get_from_codic <- function(txt){
   token <- Sys.getenv('CODIC_TOKEN')
   API_URL <- 'https://api.codic.jp/v1/engine/translate.json'
@@ -21,7 +21,7 @@ get_from_codic <- function(txt){
     httr::GET(
       API_URL,
       query = list(text=txt, casing="lower underscore"),
-      add_headers(
+      httr::add_headers(
         Authorization = paste("Bearer", token), Accept = "application/json"
       )
     )
